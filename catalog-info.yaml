@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-react3"
+  description: "Test React Service"
+  annotations:
+    github.com/project-slug: mungmoong3/test-react3
+    backstage.io/techdocs-ref: url:https://github.com/mungmoong3/test-react3
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "jeroh"
